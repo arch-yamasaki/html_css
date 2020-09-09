@@ -1,0 +1,156 @@
+.body{
+  font-family: "Georgia, 游明朝, YuMincho, Hiragino Mincho ProN, Meiryo, serif";
+  ;
+}
+
+.date{
+  color: gray;
+}
+
+.link{
+  color: gray;
+  text-decoration:underline;
+  text-decoration-color:gray;
+  &:hover{
+    color: khaki;
+    transition: 0.2s;
+  }
+}
+
+.container{
+  width: 80%;
+  text-align: center;
+  background-size: cover;
+  margin: auto;
+  // background-color: khaki;
+}
+
+.flex-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 30px;
+  .logo{
+    text-align: left;
+    h1 {
+      font-weight: 1400;
+      font-size: 36px;
+      margin-bottom: 0px;
+      letter-spacing: 3px;
+    }
+    span {
+      color: gray
+    }
+  }
+  
+  .flex-menu {
+    display: flex;
+    .nav{
+      margin: 0px 10px;
+    }
+  }
+  
+  .finder{
+    margin-left: 30px;
+  }
+
+}
+
+.top-wrapper{
+  img {
+    background-size: cover;
+    width: 100%;
+    margin-top: 100px;
+  }
+  h2 {
+    margin: 50px 0 100px 0;
+    text-align: left;
+    // margin-top: 50px;
+    line-height: 175%;
+    color: gray;
+    font-family: 'ＭＳ 明朝', serif;
+  }
+}
+
+.post{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  text-align: left;
+  text-align: initial;
+  .post_date{
+    margin-right: 100px;
+  }
+  .content{
+    font-family: 'ＭＳ 明朝', serif;
+    width: 720px;
+    h3 {
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 0px;
+    }
+    p {
+      color: gray;
+    }
+  }
+}
+
+.pagenation{
+  text-align: center;
+  padding-bottom: 80px;
+  opacity: 0.6;
+  span{
+    border: solid 1px gray;
+    margin: 0px 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+}
+
+.footer-first{
+  .container{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .flex-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 50px 0px;
+
+    h4{
+      margin-bottom: 20px;
+      font-size: medium;
+    }
+    .profile {
+      // flex-basis: 0.25em;
+      width: 20%;
+      
+      p {
+        color: red;
+      }
+    }
+
+    .explanation{
+      // flex-basis: 0.25em;
+      width: 20%;
+    }
+
+    .resently_posts{
+      // flex-basis: 0.25em;
+      width: 20%;
+    }
+
+    .category{
+      // flex-basis: 0.25em;
+      width: 20%;
+      .input-group-btn{
+        
+      }
+    }
+  }
+}
+
+.resently_post{
+  margin: 10px 0;
+}
+

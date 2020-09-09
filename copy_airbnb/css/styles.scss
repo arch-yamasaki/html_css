@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+.scrolling-wrapper{
+  overflow-x: scroll;
+  margin: 0 20px;
+}
+
+.notice{
+  background-color: cadetblue;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#bottom-navs{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  bottom: 0px;
+
+  display: flex;
+  padding: 0.75em 0em;
+
+  justify-content: center;
+  background-color:white;
+  margin: auto;
+
+  .bottom-nav{
+    width: 20%;
+    text-align: center;
+    i {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.5em;
+      font-weight: bold;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  #bottom-navs{
+    display: none !important;
+  }
+}
+
+.search_window{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 0 0 30px 0;
+  input{
+    padding: 0.5em 0;
+    width: 100%;
+    text-align: left;
+    color: gray;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 1em 0em silver;
+    opacity: 0.7;
+    border: white;
+  }
+
+}
+
+.top-wrapper{
+  .top-cover{
+    margin: 0 25px;
+    position: relative;
+    color: white;
+    img{
+      background-size: cover;
+      margin: auto;
+      width: 100%;
+      // padding: 0 20px;
+      border-radius: 20px;
+    }
+    .over-text{
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      top: 20px;
+      width: 90%;
+      color:white;
+      h2{
+        font-size: 1.5em;
+      }
+      p{
+        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+      }
+      a{
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.top-info{
+  padding: 30px 0;
+  .top-card{
+    margin: auto;
+    padding: 0px;
+    border-radius: 20px;
+    .card-img-top{
+      border-radius: 20px 20px 0 0;
+      margin: 0;
+    }
+    .card-body{
+      margin: 0;
+      .card-title{
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0;
+      }
+      .card-text{
+        font-size: 0.8em;
+        color: gray;
+      }
+    }
+  }
+}
+
+.middle-info{
+  background-color: black;
+  padding: 100px 0;
+  color: white;
+  .middle-info-head{
+    h2{
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+  .middle-card{
+    margin: 0 5px;
+    padding: 0px;
+    background-color: rgb(65, 63, 63);
+    border-radius: 20px;
+    .card-img-top{
+      border-radius: 20px 20px 0 0;
+      margin: 0;
+    }
+  }
+}
+
+.informations-container{
+  background-color: rgba(214, 209, 209, 0.863);
+  .informations{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+
+    .information{
+      border-top: solid 1px silver;
+    }
+    p{
+      font-size: 0.8em;
+      font-weight: bold;
+    }
+    a{
+      color: black;
+      font-weight: normal;
+
+    }
+  }
+}
+
+.white-space{
+  background-color: white;
+  height: 30px;
+  width: 100%;
+}
+
+@media (min-width:1000px){
+  .informations-container{
+    .informations{
+      width: 80%;
+      flex-direction: row;
+      padding: 0px 0px;
+      border-top: solid 1px silver;
+    }
+    .information{
+      border-top: none;
+      flex-basis: 100%;
+    }
+  }
+}

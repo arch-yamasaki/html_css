@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  header .navbar-brand {
+    display: none;
+  }
+  header span {
+    font-size: 1em;
+  }
+  .top {
+    height: none;
+  }
+  .top img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: initial;
+    z-index: -10;
+  }
+  .top h2 {
+    display: initial;
+    position: absolute;
+    right: initial;
+    top: 125px;
+    color: white;
+    width: 85%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: 2.25em;
+  }
+  .top .web-search {
+    width: 100%;
+    right: auto;
+    position: initial;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .top .web-search h2 {
+    display: none;
+  }
+  .top .web-search .selects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .top .web-search .selects select {
+    width: 100% !important;
+    background-color: white;
+  }
+  .hosting .hosting_voice img {
+    margin: 20px 0;
+  }
+  .hosting .hosting_voice h3 {
+    font-size: 1em;
+    border: none;
+  }
+}
+/*# sourceMappingURL=phone.css.map */

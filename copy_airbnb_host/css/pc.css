@@ -1,0 +1,42 @@
+.container {
+  width: 66%;
+}
+
+@media (max-width: 3000px) {
+  header .navbar-brand {
+    display: none;
+  }
+  header span {
+    font-size: 1em;
+  }
+  .top .web-search {
+    top: 100px;
+    right: 100px;
+    padding: 20px 30px;
+  }
+  .top .web-search .start-button {
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .top .web-search .input_box {
+    padding: 0.25em 0;
+    margin: 0.25em 0;
+  }
+}
+
+.explanation {
+  margin: 30px auto;
+}
+
+.hosting h2 {
+  font-size: xx-large;
+  font-style: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hosting .step {
+  padding: 0 20px;
+}
+/*# sourceMappingURL=pc.css.map */

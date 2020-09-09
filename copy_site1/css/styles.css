@@ -1,0 +1,173 @@
+@charset "UTF-8";
+.body {
+  font-family: "Georgia, 游明朝, YuMincho, Hiragino Mincho ProN, Meiryo, serif";
+}
+
+.date {
+  color: gray;
+}
+
+.link {
+  color: gray;
+  text-decoration: underline;
+  -webkit-text-decoration-color: gray;
+          text-decoration-color: gray;
+}
+
+.link:hover {
+  color: khaki;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  background-size: cover;
+  margin: auto;
+}
+
+.flex-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 30px;
+}
+
+.flex-header .logo {
+  text-align: left;
+}
+
+.flex-header .logo h1 {
+  font-weight: 1400;
+  font-size: 36px;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+}
+
+.flex-header .logo span {
+  color: gray;
+}
+
+.flex-header .flex-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-header .flex-menu .nav {
+  margin: 0px 10px;
+}
+
+.flex-header .finder {
+  margin-left: 30px;
+}
+
+.top-wrapper img {
+  background-size: cover;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.top-wrapper h2 {
+  margin: 50px 0 100px 0;
+  text-align: left;
+  line-height: 175%;
+  color: gray;
+  font-family: 'ＭＳ 明朝', serif;
+}
+
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+  text-align: left;
+  text-align: initial;
+}
+
+.post .post_date {
+  margin-right: 100px;
+}
+
+.post .content {
+  font-family: 'ＭＳ 明朝', serif;
+  width: 720px;
+}
+
+.post .content h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.post .content p {
+  color: gray;
+}
+
+.pagenation {
+  text-align: center;
+  padding-bottom: 80px;
+  opacity: 0.6;
+}
+
+.pagenation span {
+  border: solid 1px gray;
+  margin: 0px 10px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.footer-first .container {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.footer-first .flex-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px 50px 0px;
+}
+
+.footer-first .flex-footer h4 {
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+.footer-first .flex-footer .profile {
+  width: 20%;
+}
+
+.footer-first .flex-footer .profile p {
+  color: red;
+}
+
+.footer-first .flex-footer .explanation {
+  width: 20%;
+}
+
+.footer-first .flex-footer .resently_posts {
+  width: 20%;
+}
+
+.footer-first .flex-footer .category {
+  width: 20%;
+}
+
+.resently_post {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=styles.css.map */

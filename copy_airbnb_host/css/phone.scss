@@ -1,0 +1,67 @@
+$phone-size: 600px;
+
+@media(max-width:$phone-size){
+    .container{
+        width: 90%;
+    }
+
+    header{
+        .navbar-brand{
+            display: none
+        }
+        span{
+            font-size: 1em;
+        }
+    }
+
+    .top{
+        height: none;
+        img{
+            // object-fit: contain;
+            object-fit: cover;
+            height: initial;
+            z-index: -10;
+        }
+        h2{
+            display: initial;
+            position: absolute;
+            right: initial;
+            top: 125px;
+            color:white;
+            width: 85%;
+            margin: auto;
+            left:0; right:0;
+            font-size: 2.25em;
+        }
+        .web-search{
+            width: 100%;
+            right: auto;
+            position: initial;
+            background-color: rgba(0,0,0,0);
+            h2{
+                display: none;
+            }
+            .selects{
+                flex-direction: column;
+                select{
+                    width: 100% !important;
+                    background-color: white;
+                }
+            }
+        }
+
+    }
+
+    .hosting{
+        .hosting_voice{
+            img{
+                margin: 20px 0 ;
+            }
+            h3{
+                font-size: 1em;
+                border:none;
+            }
+        }
+    }
+
+}

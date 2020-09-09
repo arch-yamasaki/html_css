@@ -1,0 +1,110 @@
+@import "phone.scss";
+* {
+    font-family: var(--font-form-element-small-font-family, Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif); 
+}
+* {
+    box-sizing: border-box;
+  }
+
+.divide_line{
+    width: 50px;
+    margin: 30px auto;
+    border-top: solid;
+}
+
+.start-button{
+    border-radius: 0.3em;
+    background-color: #D70466;
+    color: white;
+    border: none;
+    padding: 2px 20px;
+    margin-right: 50px;
+}
+
+header{
+    span{
+        font-size: 2em;
+    }
+    .nav-link{
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+}
+
+.top{
+    position: relative;
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 540px;
+        object-position: 0px 0px;
+        z-index: -10;
+    }
+    h2{
+        display: none;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .web-search{
+        position: absolute;
+        background-color: white;
+        width: 25%;
+        border-radius: 1%;
+        h2{
+            display: initial;
+        }
+        input{
+            width: 100%;
+        }
+        .input_box{
+            border-radius: 0.2em;
+            border-color: silver;
+            color: black;
+        }
+        .selects{
+            display: flex;
+            justify-content: space-between;
+            select:first-child{
+                width: 60%;
+            }
+            select:last-child{
+                width: 40%;
+            }
+
+        }
+        .start-button{
+            width: 100%;
+        }
+    }
+    .mobile-search{
+        display: none;
+    }
+}
+
+.hosting{
+    .steps{
+        .step{
+            h3{
+                font-style: bold ;
+            }
+        }
+    }
+    .hosting_voice{
+        h3{
+            font-size: 2em;
+        }
+        p{
+            color: gray;
+        }
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
+        button{
+            background-color: white;
+            border-radius: 0.2em;
+            border: solid 1px gray;
+            padding: 0.5em 1em;
+        }
+    }
+}
